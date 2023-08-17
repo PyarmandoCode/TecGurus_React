@@ -3,6 +3,12 @@ import ReactDOM from "react-dom/client"; //Modificar el
 import JSXcodigo from './Componentes/Ejercicio1/Variables'
 import { Sumar } from './Componentes/Ejercicio1/Sumar'
 import { BienvenidaUsuario } from './Componentes/Ejercicio2/Propsdemo'
+import DemoBlog from './Componentes/Ejercicio3/fragment'
+import App from './Componentes/Ejercicio4/Eventos'
+import Rectanguloarea from './Componentes/Ejercicio4/Eventos2'
+import MyApp from './Componentes/Ejercicio4/Hook'
+
+import  Productos from './Componentes/Ejercicio5/Listas'
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
@@ -72,8 +78,32 @@ function Bienvenida() {
 }
 
 
+// root.render(
+//     <div>
+//         <Bienvenida/>
+//     </div>
+// )
+
+// root.render(
+//     <div>
+//         <DemoBlog />
+//     </div>
+// )
+
+// root.render(
+//     <div>
+//         <Rectanguloarea />
+//     </div>
+// )
+
+// root.render(
+//     <div>
+//         <MyApp />
+//     </div>
+// )
+
 root.render(
     <div>
-        <Bienvenida/>
+        <Productos />
     </div>
 )
